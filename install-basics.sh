@@ -59,8 +59,19 @@ sysctl -w net.ipv4.tcp_rmem="4096 87380 2097152"
 
 sysctl -w net.ipv4.tcp_wmem="4096 65536 2097152"
 
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
 echo "Verifying installations..."
+echo ""
 birdc show status
+echo ""
+echo ""
 pathvector version
 
 echo "Installation complete!"
