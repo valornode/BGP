@@ -1,12 +1,20 @@
 #!/bin/bash
 
 set -e
-
+echo ""
+echo ""
+echo ""
+echo ""
 echo "Bird and Pathvector Installer Script!"
 echo "Created by Brayden at Valor Node"
+echo ""
+echo "Thank you for installing my script, I hope it helps"
+echo "you install and learn BGP, it's a great thing!"
+echo ""
 echo "Looking for a BGP VPS to learn BGP?"
 echo "We offer IPv4/IPv6 subnets, BGP sessions, VMs"
 echo "and much more!"
+echo ""
 echo "www.valornode.net"
 sleep 10
 
