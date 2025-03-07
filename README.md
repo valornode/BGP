@@ -18,9 +18,9 @@ Download and Run the Script:
 
 ```wget https://raw.githubusercontent.com/valornode/BGP/main/install-basics.sh -O install-basics.sh```
 
-```chmod +x install.sh```
+```chmod +x install-basics.sh```
 
-```./install.sh```
+```./install-basics.sh```
 
 ## Features
 
