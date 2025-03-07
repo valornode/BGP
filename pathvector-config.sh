@@ -3,7 +3,7 @@
 CONFIG_FILE="/etc/pathvector.yml"
 
 cat <<EOF | sudo tee $CONFIG_FILE > /dev/null
-asn: 65510 
+asn: 65510
 router-id: 192.0.2.1
 source4: 192.0.2.1
 source6: 2001:db8::1
