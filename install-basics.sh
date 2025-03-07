@@ -2,6 +2,14 @@
 
 set -e
 
+echo "Bird and Pathvector Installer Script!"
+echo "Created by Brayden at Valor Node"
+echo "Looking for a BGP VPS to learn BGP?"
+echo "We offer IPv6 subnets, BGP sessions, VMs"
+echo "and much more!"
+echo "www.valornode.net"
+sleep 10
+
 echo "Updating package list..."
 sudo apt update -y
 
