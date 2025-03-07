@@ -8,6 +8,9 @@ sudo apt update -y
 echo "Installing dependencies..."
 sudo apt install -y curl ca-certificates gnupg
 
+echo "Installing Git..."
+sudo apt install -y git
+
 echo "Installing bgpq4..."
 git clone https://github.com/bgp/bgpq4.git /tmp/bgpq4
 cd /tmp/bgpq4
