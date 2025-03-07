@@ -43,7 +43,12 @@ echo "Installing Pathvector..."
 curl https://repo.pathvector.io/pgp.asc > /usr/share/keyrings/pathvector.asc
 echo "deb [signed-by=/usr/share/keyrings/pathvector.asc] https://repo.pathvector.io/apt/ stable main" > /etc/apt/sources.list.d/pathvector.list
 apt update && apt install -y pathvector
-touch /etc/pathvector.yml
+
+echo "Setting up Pathvector configuration file..."
+wget https://raw.githubusercontent.com/valornode/BGP/main/pathvector-config.sh -O pathvector-config.sh
+chmod +x pathvector-config.sh
+
+
 
 echo "Enabling IPv4 forwarding..."
 echo "net.ipv4.ip_forward=1" | sudo tee /etc/sysctl.d/99-ipv4-forwarding.conf > /dev/null
